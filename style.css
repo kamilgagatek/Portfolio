@@ -1,0 +1,240 @@
+body {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+html {
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    text-align: center;
+}
+#top {
+    height: 320px;
+    width: 100%;
+    display: flex;
+    background: url(./topbackground.jpg);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+#logo-top > p {
+    font-size: 50px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+}
+#nav-bar {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav {
+    background-color: white;
+    width: 100%;
+}
+.nav-links {
+    text-decoration: none;
+    padding: 5px;
+    font-family: "Oswald", sans-serif;
+    margin: 5px;
+    font-size: 1.1rem;
+    width: 33%;
+    font-weight: 600;
+    color: rgb(7, 7, 133);
+}
+.nav-links:hover {
+    background-color:rgb(7, 7, 133);
+    color: white;
+    transition: 1s;
+    border-radius: 10px;
+}
+.nav-links:visited {
+    color: none;
+}
+#first-hr {
+    border: 1.5px solid rgb(7, 7, 133);
+    margin: 0px;
+
+}
+.heading {
+    padding: 5px;
+    margin: 10px auto 10px auto;
+    color: black;
+    font-size: 1.6rem;
+    font-family: "Oswald", sans-serif;
+}
+#person-img {
+    width: 180px;
+    margin: 10px;
+}
+#aboutme1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.text {
+    font-family: "SUSE", sans-serif;
+    font-size: 1rem;
+    margin: auto;
+    width: 90%;
+}
+#aboutme2 {
+    display: none;
+}
+.bold-text {
+    font-weight: 600;
+}
+section{
+    width: 90%;
+    margin: 20px auto 20px auto;
+}
+.category-desc {
+    font-family: "BenchNine", sans-serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    background-color: rgb(93, 93, 171);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+.aligncolumn {
+    display: flex;
+    flex-direction: column;
+}
+.important-links {
+    font-family: "BenchNine", sans-serif;
+    color: rgb(173, 31, 31);
+    font-size: 1.3rem;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+.simple-icon2 {
+    width: 300px;
+}
+.simple-icon {
+    height: 200px;
+}
+.pdf-icon {
+    height: 220px;
+}
+.h1, .h2 {
+    width: 50%;
+}
+.pdf-icon2 {
+    height: 220px;
+    margin: 10px;
+}
+.alignrow {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#contact {
+    height: 320px;
+    background-color: rgb(93, 93, 171);
+    display: flex;
+    flex-direction: column;
+}
+#contact-top {
+    font-family: "BenchNine", sans-serif;
+    color: white;
+    margin-top: 30px;
+    font-size: 2rem;
+}
+#align {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.c1 {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    width: 100%;
+}
+.center > img {
+    width: 50px;
+    margin: 20px;
+}
+.center > span {
+    color: white;
+    font-family: "BenchNine", sans-serif;
+    font-size: 1.5rem;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+@media screen and (min-width: 700px)
+{
+    #aboutme2 {
+        display: block;
+    }
+    section{
+        width: 95%;
+    } 
+    #aboutme {
+        display: flex;
+        flex-direction: row;
+    }
+    #aboutme1 {
+        width: 75%;
+        text-align: left;
+    }
+    #aboutme2 {
+        width: 25%;
+        display: flex;
+        align-items: center;
+    }
+    html {
+        font-size: 1.3em;
+    }
+    #first-link, #twice-link {
+        text-align: center;
+    }
+}
+@media screen and (min-width: 1200px)
+{
+    #aboutme1 {
+        width: 80%;
+    }
+    #aboutme2 {
+        width: 20%;
+    }
+    #logo-top > p {
+        font-size: 3em;
+    }
+    .m1 {
+        width: 70%;
+        text-align: left;
+    }
+    .m2 {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #first-link, #twice-link {
+        text-align: left;
+    }
+    #twice-link {
+        color: rgb(85, 85, 152);
+    }
+    .aligncolumn {
+        flex-direction: row;
+    }
+    .important-links {
+        text-align: center;
+    }
+    html {
+        font-size: 1.5em;
+    }
+}
