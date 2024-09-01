@@ -106,9 +106,9 @@ section{
     flex-direction: column;
 }
 .important-links {
-    font-family: "SUSE", sans-serif;
+    font-family: "BenchNine", sans-serif;
     color: rgb(173, 31, 31);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 a {
     text-decoration: none;
